@@ -1,0 +1,6 @@
+framework module Pods_clientUITests {
+  umbrella header "Pods-clientUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
