@@ -13,10 +13,10 @@
 		1A3763D520F8F86300E21ADC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3763D420F8F86300E21ADC /* SecondViewController.swift */; };
 		1A3763D820F8F86300E21ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3763D620F8F86300E21ADC /* Main.storyboard */; };
 		1A3763DA20F8F86400E21ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3763D920F8F86400E21ADC /* Assets.xcassets */; };
-		1A3763DD20F8F86400E21ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3763DB20F8F86400E21ADC /* LaunchScreen.storyboard */; };
 		1A3763E820F8F86500E21ADC /* clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3763E720F8F86500E21ADC /* clientTests.swift */; };
 		1A3763F320F8F86500E21ADC /* clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3763F220F8F86500E21ADC /* clientUITests.swift */; };
 		1A37640320F8FA1200E21ADC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A37640220F8FA1200E21ADC /* GoogleService-Info.plist */; };
+		26FFCCAB21E7E09E00EF9D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FFCCAA21E7E09E00EF9D53 /* ViewController.swift */; };
 		67E7CA608B5E679DCFB56A65 /* Pods_clientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C565FE02A2E15AEDA01D7411 /* Pods_clientTests.framework */; };
 		CC8C9A6EFE5E9002E78A956A /* Pods_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497AAEC2F4F2A634C8BD6D78 /* Pods_client.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,6 @@
 		1A3763D420F8F86300E21ADC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1A3763D720F8F86300E21ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A3763D920F8F86400E21ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A3763DC20F8F86400E21ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A3763DE20F8F86400E21ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A3763E320F8F86500E21ADC /* clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3763E720F8F86500E21ADC /* clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clientTests.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		1A3763F220F8F86500E21ADC /* clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clientUITests.swift; sourceTree = "<group>"; };
 		1A3763F420F8F86500E21ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A37640220F8FA1200E21ADC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26FFCCAA21E7E09E00EF9D53 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32BE4AE76BF8973EBF7B05C8 /* Pods_clientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C29902C7157C5785A4A85C0 /* Pods-clientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-clientTests/Pods-clientTests.release.xcconfig"; sourceTree = "<group>"; };
 		497AAEC2F4F2A634C8BD6D78 /* Pods_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,10 +134,10 @@
 				1A37640220F8FA1200E21ADC /* GoogleService-Info.plist */,
 				1A3763D020F8F86300E21ADC /* AppDelegate.swift */,
 				1A3763D220F8F86300E21ADC /* FirstViewController.swift */,
+				26FFCCAA21E7E09E00EF9D53 /* ViewController.swift */,
 				1A3763D420F8F86300E21ADC /* SecondViewController.swift */,
 				1A3763D620F8F86300E21ADC /* Main.storyboard */,
 				1A3763D920F8F86400E21ADC /* Assets.xcassets */,
-				1A3763DB20F8F86400E21ADC /* LaunchScreen.storyboard */,
 				1A3763DE20F8F86400E21ADC /* Info.plist */,
 			);
 			path = client;
@@ -183,7 +183,7 @@
 				1A3763CA20F8F86300E21ADC /* Frameworks */,
 				1A3763CB20F8F86300E21ADC /* Resources */,
 				48DA0E64F80616695C9594D1 /* [CP] Embed Pods Frameworks */,
-				2C58A122A4441F05A4CF076C /* [CP] Copy Pods Resources */,
+				33A56820926337304065CEBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +202,6 @@
 				1A3763DF20F8F86500E21ADC /* Sources */,
 				1A3763E020F8F86500E21ADC /* Frameworks */,
 				1A3763E120F8F86500E21ADC /* Resources */,
-				147CB52B0AF1FE57ED27533E /* [CP] Embed Pods Frameworks */,
-				1B2DC73CABB19B8361393065 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,8 +221,6 @@
 				1A3763EA20F8F86500E21ADC /* Sources */,
 				1A3763EB20F8F86500E21ADC /* Frameworks */,
 				1A3763EC20F8F86500E21ADC /* Resources */,
-				7B8978D56F81FF6BEF44D537 /* [CP] Embed Pods Frameworks */,
-				216F59988138E3D0894CE48C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,7 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3763DD20F8F86400E21ADC /* LaunchScreen.storyboard in Resources */,
 				1A37640320F8FA1200E21ADC /* GoogleService-Info.plist in Resources */,
 				1A3763DA20F8F86400E21ADC /* Assets.xcassets in Resources */,
 				1A3763D820F8F86300E21ADC /* Main.storyboard in Resources */,
@@ -326,60 +321,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		147CB52B0AF1FE57ED27533E /* [CP] Embed Pods Frameworks */ = {
+		33A56820926337304065CEBE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clientTests/Pods-clientTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1B2DC73CABB19B8361393065 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-client/Pods-client-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clientTests/Pods-clientTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		216F59988138E3D0894CE48C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clientUITests/Pods-clientUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2C58A122A4441F05A4CF076C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -393,36 +362,45 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-client/Pods-client-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-client/Pods-client-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B8978D56F81FF6BEF44D537 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clientUITests/Pods-clientUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		896C6F8CBD6CF5949B3AFB22 /* [CP] Check Pods Manifest.lock */ = {
@@ -470,6 +448,7 @@
 			files = (
 				1A3763D520F8F86300E21ADC /* SecondViewController.swift in Sources */,
 				1A3763D120F8F86300E21ADC /* AppDelegate.swift in Sources */,
+				26FFCCAB21E7E09E00EF9D53 /* ViewController.swift in Sources */,
 				1A3763D320F8F86300E21ADC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,14 +491,6 @@
 				1A3763D720F8F86300E21ADC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1A3763DB20F8F86400E21ADC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A3763DC20F8F86400E21ADC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -646,7 +617,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = client/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -661,7 +635,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = client/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -677,7 +654,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = clientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.clientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -694,7 +675,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = clientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.clientTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -710,7 +695,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = clientUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.clientUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -726,7 +715,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = clientUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = stamper.clientUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
