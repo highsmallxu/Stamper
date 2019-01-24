@@ -49,27 +49,78 @@ class FirstViewController: UIViewController {
         
         
         
-        var uuid = UUID().uuidString;
+//        var uuidMerchant = UUID().uuidString;
+//        var uuidClient = UUID().uuidString;
+//        var ref:DatabaseReference!
+//        ref = Database.database().reference()
+//        ref.child("merchant")
+//            .child("merchant1")
+//            .setValue(["stampId":uuid]){
+//                (error:Error?, ref:DatabaseReference) in
+//                if let error = error {
+//                    print(error)
+//                    print("Data could not be saved")
+//                } else {
+//                    print("Data saved sucessfully")
+//                }
+//        }
+        
+        //用户扫商家-获得一枚stamp
+        var uuidMerchant = UUID().uuidString; //从二维码中获取
+        uuidMerchant = "merchantID_1"; //暂时假设为merchantID_1
+        var uuidClient = UUID().uuidString; //从用户信息中获取
+        uuidClient = "clientID_1"; //暂时假设为clientID_1
+        var timestamp = NSDate().timeIntervalSince1970;
         var ref:DatabaseReference!
         ref = Database.database().reference()
-        ref.child("merchant")
-            .child("merchant1")
-            .setValue(["stampId":uuid]){
-                (error:Error?, ref:DatabaseReference) in
+        ref.child("client")
+            .child(uuidClient)
+            .child("merchantCards")
+            .child(uuidMerchant)
+            .child("stamp")
+            .setValue(["stampID":uuidMerchant+uuidClient+String(timestamp)]){
+                (error:Error?,ref:DatabaseReference) in
                 if let error = error {
                     print(error)
                     print("Data could not be saved")
-                } else {
-                    print("Data saved sucessfully")
+                } else{
+                    print("Data saved successfully in client")
                 }
         }
         
+        //商家记录给出一枚stamp
+        ref.child("merchant")
+            .child("stamp")
+            .setValue(["stampID":uuidMerchant+uuidClient+String(timestamp)]){
+                (error:Error?,ref:DatabaseReference) in
+                if let error = error {
+                    print(error)
+                    print("Data could not be saved")
+                } else{
+                    print("Data saved successfully into merchant")
+                }
+        }
         
+        //商家给出新卡
+        ref.child("client")
+            .child(uuidClient)
+            .child("merchantCards")
+            .child(uuidMerchant)
+            .child("creationTime")
+            .setValue(["timestamp":String(timestamp)]){
+                (error:Error?,ref:DatabaseReference) in
+                if let error = error {
+                    print(error)
+                    print("Data could not be saved")
+                } else{
+                    print("Data saved successfully in client")
+                }
+        }
+
         
         
         
 //        ref.child("merchant").setValue(["merchant1":uuid])
-        print(uuid)
     }
     
     func displayQRCodeImage() {
